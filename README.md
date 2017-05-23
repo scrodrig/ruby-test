@@ -4,9 +4,9 @@ This project contains the part of the Leave Ecuador web app which runs on the se
 You can find the Front end  project on [GitHub](https://github.com/twlabs/leave-ecuador-ui).
 
 
-##Prerequisites
+## Prerequisites
 
-###Installing Rails 5
+### Installing Rails 5
 First, make sure you are running Ruby 2.4.1 and rails 5.1.1. You can check that with
 
         ruby -v
