@@ -5,6 +5,32 @@ You can find the Front end  project on [GitHub](https://github.com/twlabs/leave-
 
 ## Prerequisites
 
+### RVM
+
+First, install mpapis public key
+
+        gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+
+Install RVM stable with ruby
+
+      \curl -sSL https://get.rvm.io | bash -s stable --ruby
+
+Install ruby version 2.4.1
+
+      rvm install ruby-2.4.1
+
+Create a new gemset for the project
+
+      rvm gemset create leave-ecuador-backend
+
+Set the ruby version with RVM
+
+      rvm use ruby-2.4.1
+
+Finally, set the gemset with RVM
+
+      rvm gemset use eave-ecuador-backend
+
 ### Rails 5
 First, make sure you are running Ruby 2.4.1 and rails 5.1.1. You can check that with
 
