@@ -13,7 +13,8 @@ First, make sure you are running Ruby 2.4.1 and rails 5.1.1. You can check that 
 
 You also need a ruby version manager, get either [RVM](https://rvm.io/) or [rbenv](https://github.com/rbenv/rbenv).
 
-To install the latest version or rails do:
+To install the latest version of rails do
+
         gem install rails
 
 ### PostgreSQL
