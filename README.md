@@ -81,6 +81,6 @@ The scaffold for this project was created using
 
     rails new leave-ecuador-backend --api --database=postgresql
 
-We are using the [rails-api](rails new leave-ecuador-backend --api --database=postgresql)
+We are using the [rails-api](https://github.com/rails-api/rails-api)
 [Postgres](http://postgresapp.com/) for our database
 And [RSpec](http://rspec.info/) for testing
