@@ -75,3 +75,12 @@ Things you may want to cover:
 * Deployment instructions
 
 * ... --->
+
+## dependencies
+The scaffold for this project was created using
+
+    rails new leave-ecuador-backend --api --database=postgresql
+
+We are using the [rails-api](rails new leave-ecuador-backend --api --database=postgresql)
+[Postgres](http://postgresapp.com/) for our database
+And [RSpec](http://rspec.info/) for testing
