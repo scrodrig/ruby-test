@@ -1,7 +1,7 @@
-# LEAVE ECUADOR BACKEND
+# LEAVE BACKEND
 
-This project contains the part of the Leave Ecuador web app which runs on the server.
-You can find the Front end  project on [GitHub](https://github.com/twlabs/leave-ecuador-ui).
+This project contains the part of the Leave web app which runs on the server.
+You can find the Front end  project on [GitHub](https://git.thoughtworks.net/leave/leave-ui).
 
 ## Prerequisites
 
@@ -19,17 +19,12 @@ To install the latest version of rails do
 
 ### PostgreSQL
 
-install Postgres and create a Postgres user for the Rails app.
+Install Postgres and create a Postgres user for the Rails app.
 
-        createuser -U postgres -s leave-ecuador-backend
+        createuser -U postgres -s leave-backend
 
 
 ## Getting Started
-
-
-Create a new gemset for the project using RVM:
-
-      rvm gemset create leave-ecuador-backend
 
 Set the ruby version with RVM
 
@@ -37,13 +32,14 @@ Set the ruby version with RVM
 
 Finally, set the gemset with RVM
 
-      rvm gemset use leave-ecuador-backend
+      rvm gemset use leave-backend
+
 
 Clone the repository
 
 Go inside the project folder and update the dependencies
 
-        cd leave-ecuador-backend
+        cd leave-backend
         bundle install
 
 Then create the database Using
@@ -76,10 +72,10 @@ Things you may want to cover:
 
 * ... --->
 
-## dependencies
+## Dependencies
 The scaffold for this project was created using
 
-    rails new leave-ecuador-backend --api --database=postgresql
+    rails new leave-backend --api --database=postgresql
 
 We are using the [rails-api](https://github.com/rails-api/rails-api) for the server,
 [Postgres](http://postgresapp.com/) for our database,

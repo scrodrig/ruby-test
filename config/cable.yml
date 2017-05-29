@@ -7,4 +7,4 @@ test:
 production:
   adapter: redis
   url: redis://localhost:6379/1
-  channel_prefix: leave-ecuador-backend_production
+  channel_prefix: leave-backend_production

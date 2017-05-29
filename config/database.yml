@@ -25,21 +25,21 @@ development:
   <<: *default
   adapter: postgresql
   encoding: unicode
-  database: leave—ecuador-backend_development
+  database: leave-backend_development
   pool: 5
-  username: leave-ecuador-backend
+  username: leave-backend
 
 test:
   <<: *default
   adapter: postgresql
   encoding: unicode
-  database: leave-ecuador-backend_test
+  database: leave-backend_test
   pool: 5
-  username: leave-ecuador-backend
+  username: leave-backend
 
 
 production:
   <<: *default
-  database: leave-ecuador-backend_production
-  username: leave-ecuador-backend
-  password: <%= ENV['LEAVE-ECUADOR-BACKEND_DATABASE_PASSWORD'] %>
+  database: leave-backend_production
+  username: leave-backend
+  password: <%= ENV['LEAVE-BACKEND_DATABASE_PASSWORD'] %>
