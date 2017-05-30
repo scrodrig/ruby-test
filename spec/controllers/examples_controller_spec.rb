@@ -15,7 +15,6 @@ RSpec.describe ExamplesController, type: :controller do
         expect(response).to have_http_status(:created)
         expect(response.content_type).to eq('application/json')
         expect(response.location).to eq(example_url(Example.last))
-
         get :show, params: {id: Example.last.id}
         expect(response).to be_success
       end
